@@ -1,0 +1,8 @@
+cabal-version: 2.4
+name: dejafu-bug
+version: 0
+
+executable dejafu-bug
+  build-depends: base, concurrency, dejafu
+  main-is: Main.hs
+  default-language: Haskell2010
